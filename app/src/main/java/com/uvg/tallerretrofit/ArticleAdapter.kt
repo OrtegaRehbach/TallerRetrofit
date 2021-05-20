@@ -5,7 +5,7 @@ import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.uvg.tallerretrofit.databinding.itemNewBinding
+import com.uvg.tallerretrofit.databinding.ItemNewBinding
 import com.squareup.picasso.Picasso
 
 class ArticleAdapter(private val articles: List<Article>) : RecyclerView.Adapter<ArticleAdapter.ViewHolder>() {
